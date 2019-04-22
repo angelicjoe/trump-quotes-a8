@@ -1,0 +1,9 @@
+schema_version: 20180708
+name: iamonuwa.trump_get_random_quote
+version: 0.0.16
+runtime: node
+entrypoint: node func.js
+format: http-stream
+timeout: 30
+idle_timeout: 30
+memory: 128

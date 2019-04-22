@@ -1,0 +1,6 @@
+FROM fnproject/node:dev as build-stage
+WORKDIR /function
+FROM fnproject/node
+WORKDIR /function
+ADD . /function/
+ENTRYPOINT ["node", "func.js"]
